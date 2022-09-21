@@ -4,12 +4,12 @@ PRODUCT_PACKAGES += \
     GameSpace \
     ThemePicker \
     TouchGestures \
+    AwakenThemePickerOverlay \
+    AwakenThemesStub \
     RepainterServicePriv
 
 ifneq ($(USE_GAPPS),true)
 PRODUCT_PACKAGES += \
-    AwakenThemePickerOverlay \
-    AwakenThemesStub \
     Apps \
     Backgrounds \
     Eleven \
